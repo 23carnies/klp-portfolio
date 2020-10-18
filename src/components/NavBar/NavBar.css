@@ -45,7 +45,14 @@ nav ul li a {
 #left {
     margin-left: auto;
 }
-
+.flag-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flag {
+    padding: 0;
+}
 
 @media screen and (max-width: 420px) {
     nav {
