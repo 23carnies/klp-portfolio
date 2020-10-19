@@ -2,10 +2,10 @@
 
 nav {
     width: 100%;
-    background-color: #F1C026;
+    background-color: #E8B12D;
     padding: 0 .5rem;
     border-bottom: 1px solid #272727;
-    box-shadow: 1px 3px 6px #9d9c9c;
+    box-shadow: 1px 3px 6px #4F4E28;
 }
 
 nav ul {
@@ -77,18 +77,18 @@ nav ul li a {
 
 @media(hover:hover) and (pointer:fine) {
     #logo:hover, .item:hover {
-        background-color: #f5e1a1;
-        text-shadow: 1px 2px #F1C026,
-                     -1px 2px 3px #6e6e6e;
+        background-color: #FBDD9D;
+        text-shadow: 1px 2px #4F4E28,
+                     -1px 2px 3px #4F4E28;
         /* padding: 1.2rem .6rem; */
     }
 }
 
 @media(hover:none) and (pointer: coarse) {
     #logo:active, .item:active {
-        background-color: #f5e1a1;
-        text-shadow: 1px 2px #F1C026,
-                     -1px 2px 3px #6e6e6e;
+        background-color: #FBDD9D;
+        text-shadow: 1px 2px #4F4E28,
+                     -1px 2px 3px #4F4E28;
         /* padding: 1.2rem .6rem; */
     }
 }
