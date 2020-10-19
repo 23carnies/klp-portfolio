@@ -20,6 +20,11 @@
 }
 
 .card-text {
+    display: none;
+}
+
+.card-text-selected {
+    display: block;
     text-align: center;
 }
 
@@ -49,9 +54,14 @@ button {
     opacity: .3;
 }
 
-img {
+.img-selected {
+    display: block;
     border-radius: 8px;
     box-shadow: 1px 1px 5px #4F4E28;
+}
+
+.img-closed {
+    display: none;
 }
 
 h4 {
