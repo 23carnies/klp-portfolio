@@ -41,12 +41,13 @@ nav ul li a {
 
 #logo, .item {
     border-radius: .5rem;
+    text-shadow: 1px 1px 2px #6E6E6E;
 }
 #left {
     margin-left: auto;
 }
 .flag-box {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -54,7 +55,7 @@ nav ul li a {
     padding: 0;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 599px) {
     nav {
         width: 100%;
     }
@@ -66,12 +67,22 @@ nav ul li a {
         padding: .7rem
     }
     #logo {
-        font-size: 2rem;
+        font-size: 1.8rem;
         text-align: center;
     }
     .item {
         font-size: 1.3rem;
         text-align: center;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    nav ul li {
+        padding: .3rem;
+        font-size: .6rem;
+    }
+    #logo {
+        font-size: 1.8rem;
     }
 }
 

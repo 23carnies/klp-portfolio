@@ -14,7 +14,7 @@
     max-width: 95%;
     margin: 5% auto;
     box-shadow: 1px 2px 8px #4F4E28;
-    background-color: #E8B12D;
+    background-color: #E9BF59;
     padding: 5%;
     text-align: center;
 }
@@ -30,16 +30,23 @@ button {
     border-radius: .5rem;
     /* box-shadow: 1px 1px 5px ##FFFFFF; */
     color: #FFFFFF;
-    text-shadow: 1px 2px 2px #272727,
-                 -1px -1px 2px #6E6E6E;
 }
 
 .link {
     background-color: #925F17;
+    border: 1px solid #2c1d07;
+    box-shadow: 1px 1px 4px #4F4E28;
 }
 
 .code {
     background-color: #4F4E28;
+    border: 1px solid #282714;
+    box-shadow: 1px 1px 4px #925F17;
+}
+
+.link:disabled {
+    background-color: rgba(146, 95, 23, );
+    opacity: .3;
 }
 
 img {

@@ -61,7 +61,7 @@ class Projects extends Component {
                         <h4>Portfolio</h4>
                         <p>This portfolio is built in React and designed in pure CSS.</p>
                         <div className="btn-box">
-                            <a href="#"><button className="link">Open App</button></a>
+                            <a href="#"><button className="link" disabled>Open App</button></a>
                             <a href="https://github.com/23carnies/klp-portfolio"><button className="code">View Code</button></a>
                         </div>
                     </div>
